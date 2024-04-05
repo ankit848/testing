@@ -606,16 +606,11 @@ pwpluss,pwnya=[],[]
 coki= []
 	
 #------------[ ANKIT LOGO ]--------------#               
-logo=("""\033[1;37m
-𝓝𝓞𝓣 𝓐𝓝𝓚𝓘𝓣  \x1b[38;5;196mXD\x1b[37m
+logo = ("""                                                    
+                      \033[1;37m
+                   𝓝𝓞𝓣 𝓐𝓝𝓚𝓘𝓣  \x1b[38;5;196mXD\x1b[37m
+""")
 
- ┏━━━━━━━━━━━━━━━━  ━━━━━━┳━━━━━━━━━━       ━━━━━━━━━┓
- ┃𝐀𝐃𝐌𝐈𝐍 : ANKIT          ┃𝐒𝐓𝐀𝐓𝐔𝐒  : PAID           ┃
- ┃𝐅𝐁 𝐈𝐃 : Ankit Shrestha        ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : 2.0     ┃
- ┣━━━━━━━━━━━━━━━━━━━━━┳━┻━━━━━━━━━━━━━━━━━━━┫
- ┃𝐆𝐈𝐓𝐇𝐔𝐁 : Ankit848  ┃ 𝐓𝐎𝐎𝐋 : FILE         |
- ┗━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━┛
- ——————————————————————————————————————————— """)
 def linex():
     print('————————————————————————————————————————————')
     #print("\033[1;91m[\033[1;92m√\033[1;91m] \033[10;93m𝚃𝙾𝙳𝙰𝚈'𝚂 𝙳𝙰𝚃𝙴 :\x1b[38;5;50m "+𝚍𝚊𝚝𝚎)       
@@ -664,7 +659,7 @@ def meyexudi():
       pass
     else:
       print(meyermarexudi)
-      print(f"{GREEN} YOUR KEY : ANKIT-"+id)	
+      print(f"{GREEN} YOUR KEY : NOT-"+id)	
       print('\033[1;37m————————————————————————————————————————————————————————')
       print('————————————————————————————————————————————————————————')
       print(' SEND 200 NPR FOR 7 DAYS APPROVAL')
@@ -696,19 +691,7 @@ ses = requests.Session()  # Define session globally
 
 def _qlog():
     os.system("clear")
-    print("""\033[1;36m
-   _____    _______   ____  __.______________
-  /  _  \   \      \ |    |/ _|   \__    ___/
- /  /_\  \  /   |   \|      < |   | |    |   
-/    |    \/    |    \    |  \|   | |    |   
-\____|__  /\____|__  /____|__ \___| |____|   \x1b[38;5;196mXD\x1b[37m
-
- ┏━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
- ┃𝐀𝐃𝐌𝐈𝐍 : ANKIT          ┃𝐒𝐓𝐀𝐓𝐔𝐒  : PAID     ┃
- ┃𝐅𝐁 𝐈𝐃 : Ankit         ┃𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : 1.6      ┃
- ┣━━━━━━━━━━━━━━━━━━━━━┳━┻━━━━━━━━━━━━━━━━━━━┫
- ┃𝐆𝐈𝐓𝐇𝐔𝐁 : Nooooooo  ┃ 𝐓𝐎𝐎𝐋 : FILE X RANDOM|
- ┗━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━┛""")
+    print(logo)
     try:
         option = input("\n\033[1;37mChoose an option:\n1. Login with Basic Authentication\n2. Login with Email and Password\nEnter your choice: \033[0m")
         if option == "1":
@@ -1411,7 +1394,7 @@ def setting():
 def api1(ids,names,passlist):
         try:
                 global ok,loop,sim_id
-                sys.stdout.write('\r\r\033[1;37m [ANKIT-M1] \x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m]|\033[1;37mOK:-\x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m] \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                sys.stdout.write('\r\r\033[1;37m [NOT-ANKIT->M1] \x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m]|\033[1;37mOK:-\x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m] \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                 fn = names.split(' ')[0]
                 try:
                         ln = names.split(' ')[1]
@@ -1515,7 +1498,7 @@ def api1(ids,names,passlist):
 def api2(ids,names,passlist):
         try:
                 global ok,loop,sim_id
-                sys.stdout.write('\r\r\033[1;37m [ANKIT-M1] \x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m]|\033[1;37mOK:-\x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m] \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                sys.stdout.write('\r\r\033[1;37m [NOT-ANKIT->M1] \x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m]|\033[1;37mOK:-\x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m] \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                 fn = names.split(' ')[0]
                 try:
                         ln = names.split(' ')[1]
@@ -1589,7 +1572,7 @@ def api2(ids,names,passlist):
 def api3(ids,names,passlist):
         try:
                 global ok,loop,sim_id
-                sys.stdout.write('\r\r\033[1;37m [ANKIT-M3] \x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m]|\033[1;37mOK:-\x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m] \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                sys.stdout.write('\r\r\033[1;37m [NOT-ANKIT->M3] \x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m]|\033[1;37mOK:-\x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m] \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                 fn = names.split(' ')[0]
                 try:
                         ln = names.split(' ')[1]
@@ -1708,7 +1691,7 @@ def api3(ids,names,passlist):
 def ffb(ids,names,passlist):
         try:
                 global ok,loop,sim_id
-                sys.stdout.write('\r\r\033[1;37m [ANKIT-M4] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                sys.stdout.write('\r\r\033[1;37m [NOT-ANKIT->M4] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                 fn = names.split(' ')[0]
                 try:
                         ln = names.split(' ')[1]
@@ -2074,7 +2057,7 @@ def api8(ids,names,passlist):
 def ANKIT1(ids,passlist):
         global loop
         global oks
-        sys.stdout.write('\r\r\033[1;37m [ANKIT-M1] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [NOT-ANKIT->M1] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         try:
                 for pas in passlist:
                         accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
@@ -2183,7 +2166,7 @@ def ANKIT2(ids,passlist):
 	global oks
 	try:
 		for pas in passlist:
-			sys.stdout.write('\r\r\033[1;37m [ANKIT-M2] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+			sys.stdout.write('\r\r\033[1;37m [NOT-ANKIT->M2] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 			application_version = str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,555))
 			application_version_code=str(random.randint(000000000,999999999))
 			__iam_genius = random.choice(android_models)
@@ -2259,7 +2242,7 @@ def ANKIT2(ids,passlist):
 def ANKIT3(ids,passlist):
         global loop
         global oks
-        sys.stdout.write('\r\r\033[1;37m [ANKIT-M3] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [NOT-ANKIT->M3] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         try:
                 for pas in passlist:
                         accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
@@ -2358,7 +2341,7 @@ def ANKIT3(ids,passlist):
 def ANKIT4(ids,passlist):
         global loop
         global oks
-        sys.stdout.write('\r\r\033[1;37m [ANKIT-M4] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [NOT-ANKIT->M4] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         try:
                 for pas in passlist:
                         accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
@@ -2453,7 +2436,7 @@ def ANKIT4(ids,passlist):
 def ANKIT5(ids,passlist):
         global loop
         global oks
-        sys.stdout.write('\r\r\033[1;37m [ANKIT-M5] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [NOT-ANKIT->M5] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         try:
                 for pas in passlist:
                         accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
@@ -2547,7 +2530,7 @@ def ANKIT6(ids,passlist):
 	global oks
 	try:
 		for pas in passlist:
-			sys.stdout.write('\r\r\033[1;37m [ANKIT-M6] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+			sys.stdout.write('\r\r\033[1;37m [NOT-ANKIT->M6] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 			session = requests.Session()
 			ua = random.choice(ugen)
 			free_fb = session.get('https://free.facebook.com').text
@@ -2828,7 +2811,7 @@ def afghanistan():
 def rndm1(uid,passlist):
         global loop
         global oks
-        sys.stdout.write(f'\r\r\033[1;37m[ANKIT-M1]\033[1;37m %s {B}|{G}\033[1;37m OK{B}|{G}\033[1;37mCP{G}\033[1;37m %s{B}|{G}\033[1;37m%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m[NOT-ANKIT->M1]\033[1;37m %s {B}|{G}\033[1;37m OK{B}|{G}\033[1;37mCP{G}\033[1;37m %s{B}|{G}\033[1;37m%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
         try:
                 for pas in passlist:
                         accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
@@ -2927,7 +2910,7 @@ def rndm1(uid,passlist):
 def rndm2(uid,passlist):
         global loop
         global oks
-        sys.stdout.write(f'\r\r{B}❲{G}ANKIT-M2{B}❳{G} %s {B}|{G} OK{B}|{G}CP{G} %s{B}|{G}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r{B}❲{G}NOT-ANKIT->M2{B}❳{G} %s {B}|{G} OK{B}|{G}CP{G} %s{B}|{G}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
         try:
                 for pas in passlist:
                         accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
@@ -3026,7 +3009,7 @@ def rndm2(uid,passlist):
 def rndm3(uid,passlist):
         global loop
         global oks
-        sys.stdout.write(f'\r\r{B}❲{G}ANKIT-M3{B}❳{G} %s {B}|{G} OK{B}|{G}CP{G} %s{B}|{G}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r{B}❲{G}NOT-ANKIT->M3{B}❳{G} %s {B}|{G} OK{B}|{G}CP{G} %s{B}|{G}%s '%(loop,len(oks),len(cps)));sys.stdout.flush()
         try:
                 for pas in passlist:
                         accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
