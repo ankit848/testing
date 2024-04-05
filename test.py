@@ -1,4 +1,7 @@
 
+#------------[ FILE X RANDOM ]--------------#
+#------------[ ORIGINAL WRITTTEN BY ANKIT ]--------------#
+#------------[ ANKIT DONA ]--------------#
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
 
 import requests as req, re,time,os
@@ -690,7 +693,6 @@ ses = requests.Session()  # Define session globally
 def _qlog():
     os.system("clear")
     print(logo)
-   
     try:
         option = input("\n\033[1;37mChoose an option:\n1. Login with Basic Authentication\n2. Login with Email and Password\nEnter your choice: \033[0m")
         if option == "1":
