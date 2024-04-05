@@ -694,6 +694,7 @@ ses = requests.Session()  # Define session globally
 def _qlog():
     os.system("clear")
     print(logo)
+    print(balpakna)
     try:
         option = input("\n\033[1;37mChoose an option:\n1. Login with Basic Authentication\n2. Login with Email and Password\nEnter your choice: \033[0m")
         if option == "1":
