@@ -531,7 +531,7 @@ else:
 #------------[ THIS IS FOR METHOD 1 ]--------------#  
 #------------[ THIS IS FOR RANDOM 1 ]--------------#  	     	     
 def ONE():
-    END = 'Mozilla/5.0 (Linux; Android 9: 10; Linux; Android 9:D4520K AppleWebKit/537.36 (KHTML, like Gecko)91 0 6001 94 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 9; Linux; Android 9:Z9409P AppleWebKit/537.36 (KHTML, like Gecko)99 0 5794 88 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 9; Linux; Android 9:Z9409P AppleWebKit/537.36 (KHTML, like Gecko)99 0 5794 88 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 8; Linux; Android 9:H25S AppleWebKit/537.36 (KHTML, like Gecko)92 0 5690 148 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]'
+    END = 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G950F Build/RKQ1.200123.002) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36 [FBAN/FB4A;FBAV/312.0.0.22.119;FBPN/com.facebook.katana;FBLC/en_US;FBBV/211864857;FBOP/5;FBCA/armeabi-v7a:armeabi;FB_FW/1;]'
     ua = 'Mozilla/5.0 (Linux; Android 9: 9; Linux; Android 9:C1896Q AppleWebKit/537.36 (KHTML, like Gecko)86 0 6047 67 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 9; Linux; Android 9:V5092V AppleWebKit/537.36 (KHTML, like Gecko)90 0 6606 60 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 9; Linux; Android 9:T9105U AppleWebKit/537.36 (KHTML, like Gecko)80 0 6232 87 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;] '+END
     return ua   
     ua1 = 'Mozilla/5.0 (Linux; Android 9: 8; Linux; Android 9:A7154Z AppleWebKit/537.36 (KHTML, like Gecko)84 0 5890 41 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 6; Linux; Android 9:E9181K AppleWebKit/537.36 (KHTML, like Gecko)84 0 6363 76 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 9; Linux; Android 9:R136U AppleWebKit/537.36 (KHTML, like Gecko)100 0 6429 84 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;] '+END
@@ -1206,8 +1206,8 @@ def menu():
                                         total_ids = str(len(fo))
                                         #print('TOTAL ID = '+total_id)  
                                         linex()
-                                        print(f'\x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m ADMIN : NOT ANKIT  ')
-                                        print(f'\x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m TOOL : FREE  ')                                      
+                                        print(f' \x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m ADMIN : NOT ANKIT  ')
+                                        print(f' \x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m TOOL : FREE  ')                                      
                                         print(f' \x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m TOTAL SCANNABLE IDS    : '+total_ids)                                        	                         
                                     #    print('\x1b[38;5;46mMETHOD\33[1;97m ➤ \x1b[1;96m{xxx}')                                     
                                         linex()
