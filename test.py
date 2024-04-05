@@ -1,7 +1,4 @@
 
-#------------[ FILE X RANDOM ]--------------#
-#------------[ ORIGINAL WRITTTEN BY ANKIT ]--------------#
-#------------[ ANKIT DONA ]--------------#
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
 
 import requests as req, re,time,os
