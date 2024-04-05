@@ -608,7 +608,8 @@ coki= []
 #------------[ ANKIT LOGO ]--------------#               
 logo = ("""\033[1;37m
 
-\t\t ℕ𝕆𝕋 𝔸ℕ𝕂𝕀𝕋 \x1b[38;5;196mPRO\x1b[37m
+\t\t ℕ𝕆𝕋 𝔸ℕ𝕂𝕀𝕋 \x1b[38;5;196mPRO\x1b[37m\n
+        \033[1m###########################################################
 """)
 
 
@@ -694,7 +695,7 @@ ses = requests.Session()  # Define session globally
 def _qlog():
     os.system("clear")
     print(logo)
-    print(balpakna)
+   
     try:
         option = input("\n\033[1;37mChoose an option:\n1. Login with Basic Authentication\n2. Login with Email and Password\nEnter your choice: \033[0m")
         if option == "1":
