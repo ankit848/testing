@@ -1199,14 +1199,15 @@ def menu():
                                        # pcp.append('y')
                                # else:
                                         #pcp.append('n')
-                                        linex()
-                                        print(f'\x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m ADMIN : NOT ANKIT  ')
-                                        print(f'\x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m TOOL : FREE  ')
+                                      
                                 with tred(max_workers=30) as crack_submit:
                                         clear()
                                         #linex()
                                         total_ids = str(len(fo))
-                                        #print('TOTAL ID = '+total_id)                                        
+                                        #print('TOTAL ID = '+total_id)  
+                                        linex()
+                                        print(f'\x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m ADMIN : NOT ANKIT  ')
+                                        print(f'\x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m TOOL : FREE  ')                                      
                                         print(f' \x1b[38;5;196m[\x1b[37m•\x1b[38;5;196m]\x1b[37m TOTAL SCANNABLE IDS    : '+total_ids)                                        	                         
                                     #    print('\x1b[38;5;46mMETHOD\33[1;97m ➤ \x1b[1;96m{xxx}')                                     
                                         linex()
