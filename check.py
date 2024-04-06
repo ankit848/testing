@@ -1,3 +1,4 @@
+proxy_url = 'https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt'
 def get_proxies(proxy_url):
     try:
         response = requests.get(proxy_url)
