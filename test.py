@@ -1410,27 +1410,22 @@ def setting():
 	
 #------------[ GMAIL ]--------------#
 #------------[ METHOD 1 ]--------------#
-import requests
-import random
-import string
-import sys
-import time
-import uuid
+proxy_url = 'https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt'
 
-proxy_url='https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt'
-def get_proxies(proxy_url):
+try:
     response = requests.get(proxy_url)
     if response.status_code == 200:
-        proxies = response.text.strip().split('\n')
-        return proxies
+        proxies_list = response.text.strip().split('\n')
+        
     else:
         print("Failed to fetch proxies from the provided URL.")
-        return []
+except requests.RequestException as e:
+    print("An error occurred:", e)
 
 def api1(ids, names, passlist, proxy_url):
     try:
         global ok, loop, sim_id
-        proxies = get_proxies(proxy_url)
+        proxies = proxies_list
         if not proxies:
             print("No proxies available.")
             return
