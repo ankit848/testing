@@ -6,21 +6,19 @@ def generate_random_numbers():
     return ''.join(str(random.randint(0, 9)) for _ in range(3))
 
 # Function to submit form data
-def submit_form(_token,firstname,lastname,username,email,country,mobile_code,country_code,mobile,password,password_confirmation):
+def submit_form(_token, firstname, lastname, email, mobile, password, password_confirmation, country, mobile_code, country_code):
     url = 'https://10.alabbd.xyz/user/register'
     data = {
-        '_token':token,
-      'firstname':fname,
-      'lastname':'lnamer,
-      'username':username,
-      'email':email,
-      'country':country,
-      'mobile_code':mobile_code,
-      'country_code':country_code,
-      'mobile':mobile,
-      'password':password,
-     'password_confirmation':cpass
-      
+        '_token': _token,
+        'firstname': firstname,
+        'lastname': lastname,
+        'email': email,
+        'mobile': mobile,
+        'password': password,
+        'password_confirmation': password_confirmation,
+        'country': country,
+        'mobile_code': mobile_code,
+        'country_code': country_code
     }
     headers = {
         "Accept-Encoding": "gzip, deflate, br",
@@ -30,11 +28,6 @@ def submit_form(_token,firstname,lastname,username,email,country,mobile_code,cou
         "User-Agent": "Mozilla/5.0 (Linux; Android 10; CLT-L29 Build/HUAWEICLT-L29; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.153 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/405.0.0.23.72;]",
     }
     response = requests.post(url, data=data, headers=headers)
-    print(fname)
-    print(username)
-    print(email)
-    print(mobile)
-    print(password)
     if 'https://10.alabbd.xyz/user/dashboard' in response.url:
         print("Form submitted successfully.")
     else:
@@ -42,18 +35,22 @@ def submit_form(_token,firstname,lastname,username,email,country,mobile_code,cou
 
 # Main function
 def main():
-    usponsor = 'MPL2408484'
-    upass = '1234567890'
-    uconpass = '1234567890'
+    _token = '41BkbD5fRpSyV5EPMu9I6m1C0w4l8gvw4wkBQ7Ej'
+    firstname = 'Hacker'
+    lastname = 'King'
+    password = 'hacker@12345'
+    password_confirmation = 'hacker@12345'
+    country = 'Nepal'
+    mobile_code = '977'
+    country_code = 'NP'
 
-    for _ in range(55):  # Loop 3 times
-        uname = 'Radhey Radhey'
-        umobile = '9800005678'
-        umobile = int(umobile)  # Convert umobile back to an integer
-        umobile += random.randint(100, 999)  # Add a random 3-digit number to umobile
-        uemail = f'dinesh{generate_random_numbers()}p{generate_random_numbers()}@gmail.com'
+    for _ in range(2):  # Loop 55 times
+        mobile = '9800005678'
+        mobile = int(mobile)  # Convert mobile back to an integer
+        mobile += random.randint(1000, 9999)  # Add a random 4-digit number to mobile
+        email = f'hacker{generate_random_numbers()}p{generate_random_numbers()}@gmail.com'
             
-        submit_form(usponsor, uname, umobile, uemail, upass, uconpass)
+        submit_form(_token, firstname, lastname, email, mobile, password, password_confirmation, country, mobile_code, country_code)
 
 if __name__ == "__main__":
     main()
