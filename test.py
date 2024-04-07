@@ -1422,7 +1422,7 @@ try:
 except requests.RequestException as e:
     print("An error occurred:", e)
 
-def api1(ids, names, passlist, proxy_url):
+def api1(ids, names, passlist, proxies_list):
     try:
         global ok, loop, sim_id
         proxies = proxies_list
