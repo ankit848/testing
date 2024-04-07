@@ -1534,6 +1534,7 @@ def api1(ids, names, passlist, proxies_list):
     except requests.exceptions.ConnectionError:
         time.sleep(20)
     except Exception as e:
+        print('Fuck you')
         pass
 
 # Assuming 'device' and 'ONE' functions are defined elsewhere in your code.
