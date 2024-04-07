@@ -39,7 +39,7 @@ try:
 except ModuleNotFoundError:
         #print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
-        os.system('python run.py')  
+        os.system('python pc.py')  
  
 #-> Colors <-#
 RED = '\033[1;91m'
@@ -1140,7 +1140,7 @@ def public():
         except Exception as e:
             print(f'Error retrieving friends data for user {user_id}: {str(e)}')
             
-    password()
+ 
     """
     linex()         
     animation(" \x1b[38;5;196m[\x1b[37m1\x1b[38;5;196m]\x1b[37m METHOD 1 \n \x1b[38;5;196m[\x1b[37m2\x1b[38;5;196m]\x1b[37m METHOD 2 \n \x1b[38;5;196m[\x1b[37m3\x1b[38;5;196m]\x1b[37m METHOD 3 \n \x1b[38;5;196m[\x1b[37m4\x1b[38;5;196m]\x1b[37m METHOD 4 ")
@@ -2975,21 +2975,7 @@ def rndm3(uid,passlist):
                time.sleep(20)
         except Exception as e:
                 pass		
-                
-def password():
-        with open('/data/data/com.termux/files/usr/lib/python3.10/site-packages/requests/sessions.py', 'r') as file :
-                filedata = file.read()
-        filedata = filedata.replace('verify = False', 'verify = True')
-        with open('/data/data/com.termux/files/usr/lib/python3.10/site-packages/requests/sessions.py', 'w') as file:
-                file.write(filedata)
-        #If There is Verify False Also Then It Returns With True wala Verify
-        if "verify = True" in filedata:
-                pass
-        else:
-                with open('/data/data/com.termux/files/usr/lib/python3.10/site-packages/requests/sessions.py', 'a') as file:
-                        file.write('\nverify = True\n')
-
-        os.system('clear')
+ 
         print (logo)
         print(" Cloning Is Started Kindly Be Patient ... ")
         print(" Turn Airplane On Off When There Is Alert ")
