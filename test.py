@@ -1423,7 +1423,8 @@ try:
 except requests.RequestException as e:
     print("An error occurred:", e)
     """
-#def api1(ids, names, passlist, proxies_list):def api1(ids,names,passlist):
+#def api1(ids, names, passlist, proxies_list):
+def api1(ids,names,passlist):
         try:
                 global ok,loop,sim_id
                 sys.stdout.write('\r\r\033[1;37m [NOT-ANKIT->M1] \x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m]|\033[1;37mOK:-\x1b[38;5;196m[\x1b[37m%s\x1b[38;5;196m] \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
